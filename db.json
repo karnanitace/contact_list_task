@@ -1,0 +1,30 @@
+{
+  "contacts": [
+    {
+      "name": "Sam Wilson",
+      "email": "sam@gmail.com",
+      "phone": "111-111-1111",
+      "id": 2
+    },
+    {
+      "name": "Ted Jackson",
+      "email": "ted@gmail.com",
+      "phone": "333-333-3333",
+      "id": 3
+    },
+    {
+      "name": "John D",
+      "email": "john@gmail.com",
+      "phone": "111-222-1111",
+      "id": 4
+    }
+  ],
+  "favourites": [
+    {
+      "name": "Sam Wilson",
+      "email": "sam@gmail.com",
+      "phone": "111-111-1111",
+      "id": 2
+    }
+  ]
+}

@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* .contact__list {
+    display: flex;
+    justify-content: flex-end;
+} */
+.contact__item {
+    border: 1px solid rgb(197, 189, 189);
+    background: rgba(196, 185, 185, 0.473);
+   border-radius: 15px;
+    
+    padding: 20px;
+    box-shadow: 4px 6px 24px -1px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    
+}
+.contact__item  button {
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-right: 4px;
+}
+.edit__contact {
+    background: rgb(76, 190, 76);
+    color: #fff;
+}
+.favourite__contact {
+    background: rgb(218, 37, 37);
+    color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.contact__detail {
+    font-size: 18px;
+    margin-bottom: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact__wrapper {
+    padding: 30px;
+}
+.contact__section {
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.contact__head {
+    margin-bottom: 20px;
+}
+.add__contact {
+    border: 0;
+    outline: 0;
+    background: rgb(45, 34, 194);
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 8px;
+   cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form__section {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.form__section input {
+    
+    margin-bottom: 10px;
+    display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.delete__contact {
+    background: #333;
+    color: #fff;
+}
+.text-primary {
+    color: rgb(45, 34, 194);
+    font-size: 24px;
+    text-align: center;
+    
+    margin-bottom: 8px;
+}
+.clear-btn {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    background: rgb(76, 190, 76);
+    outline: 0;
+    border: 0;
+    padding: 5px 8px;
+}
+
+.view-fav {
+    background: rgb(44, 156, 207);
+    border: 0;
+    outline: 0;
+    padding: 5px 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 22px;
 }

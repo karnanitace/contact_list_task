@@ -1,0 +1,11 @@
+  
+export const GET_CONTACT = "GET_CONTACT";
+export const ADD_CONTACT = "ADD_CONTACT";
+export const DELETE_CONTACT = "DELETE_CONTACT";
+export const UPDATE_CONTACT = "UPDATE_CONTACT";
+export const DELETE_FAV = "DELETE_FAV";
+export const CONTACT_ERROR = "CONTACT_ERROR";
+export const ADD_FAVOURITE = "ADD_FAVOURITE";
+export const GET_FAVOURITE = "GET_FAVOURITE";
+export const SET_CURRENT = "SET_CURRENT";
+export const CLEAR_CURRENT = "CLEAR_CURRENT";
